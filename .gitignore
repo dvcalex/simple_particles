@@ -1,0 +1,103 @@
+# Build directories
+build/
+out/
+bin/
+lib/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeSettings.json
+CTestTestfile.cmake
+install_manifest.txt
+compile_commands.json
+Makefile
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+*.la
+*.lo
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE specific
+*.cbp
+*.layout
+*.depend
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# Package managers
+vcpkg_installed/
+_deps/
+
+# CMake build types
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
