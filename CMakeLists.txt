@@ -61,12 +61,14 @@ set(SOURCES
     src/main.cpp
     src/window.cpp
     src/glad_loader.cpp
+    src/renderer.cpp
 )
 
 # Header files (for IDE organization)
 set(HEADERS
     include/window.h
     include/glad_loader.h
+    include/renderer.h
 )
 
 # Create executable
