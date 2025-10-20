@@ -57,20 +57,3 @@ void Window::framebufferSizeCallback(GLFWwindow* window, int width, int height)
 {
 	glViewport(0, 0, width, height);
 }
-
-void Window::startWindowLoop()
-{
-	while (!this->shouldClose())
-	{
-		// inputs...
-
-		// rendering...
-		// TEST
-		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
-		glClear(GL_COLOR_BUFFER_BIT);
-
-		// check and call events and swap buffers
-		glfwSwapBuffers(window);
-		glfwPollEvents();
-	}
-}
